@@ -108,11 +108,11 @@ public class Game {
     public void takeTurn(int i) {
         assert(i < this.tree.getNext().length);
         if (getBoard().getPit(i + getBoard().getOffset()) != 0) {
-            this.writeLog(i);
+//            this.writeLog(i);
             this.setTree(this.tree.getNext()[i]);
             this.getTree().buildTree(this.getDifficulty());
-            if (this.isGameOver())
-                this.writeLog(0);
+//            if (this.isGameOver())
+//                this.writeLog(0);
         }
     }
 
