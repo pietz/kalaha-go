@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="KalahaGo">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/KalahaGo.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

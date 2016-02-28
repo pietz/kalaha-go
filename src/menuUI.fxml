@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="700.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MenuUIController">
+   <children>
+      <GridPane layoutX="296.0" layoutY="80.0" prefHeight="250.0" prefWidth="700.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button id="red-btn" fx:id="btnStart" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#handleBtnStart" stylesheets="@style.css" text="Start" textFill="WHITE" GridPane.columnIndex="11" GridPane.columnSpan="6" GridPane.rowIndex="8" GridPane.rowSpan="3">
+               <font>
+                  <Font name="Futura Condensed Medium" size="36.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="5.0" />
+               </GridPane.margin>
+            </Button>
+            <Button id="green-btn" fx:id="labelDif" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" stylesheets="@style.css" text="Difficulty" textFill="WHITE" GridPane.columnIndex="1" GridPane.columnSpan="9" GridPane.rowIndex="4">
+               <GridPane.margin>
+                  <Insets left="5.0" right="5.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Futura Condensed Medium" size="18.0" />
+               </font>
+            </Button>
+            <Button id="blue-btn" fx:id="btnDifEasy" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#handleBtnDifEasy" stylesheets="@style.css" text="Easy" textFill="WHITE" GridPane.columnIndex="1" GridPane.columnSpan="3" GridPane.rowIndex="5" GridPane.rowSpan="2">
+               <font>
+                  <Font name="Futura Condensed Medium" size="20.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </GridPane.margin>
+            </Button>
+            <Button id="green-btn" fx:id="btnDifMedium" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#handleBtnDifMedium" stylesheets="@style.css" text="Medium" textFill="WHITE" GridPane.columnIndex="4" GridPane.columnSpan="3" GridPane.rowIndex="5" GridPane.rowSpan="2">
+               <font>
+                  <Font name="Futura Condensed Medium" size="20.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </GridPane.margin>
+            </Button>
+            <Button id="blue-btn" fx:id="btnDifHard" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#handleBtnDifHard" stylesheets="@style.css" text="Hard" textFill="WHITE" GridPane.columnIndex="7" GridPane.columnSpan="3" GridPane.rowIndex="5" GridPane.rowSpan="2">
+               <font>
+                  <Font name="Futura Condensed Medium" size="20.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </GridPane.margin>
+            </Button>
+            <Button id="green-btn" fx:id="labelNum" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" stylesheets="@style.css" text="Number of Stones" textFill="WHITE" GridPane.columnIndex="18" GridPane.columnSpan="9" GridPane.rowIndex="4">
+               <GridPane.margin>
+                  <Insets left="5.0" right="5.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Futura Condensed Medium" size="18.0" />
+               </font>
+            </Button>
+            <Button id="blue-btn" fx:id="btnNum4" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#handleBtnNum4" stylesheets="@style.css" text="4" textFill="WHITE" GridPane.columnIndex="18" GridPane.columnSpan="3" GridPane.rowIndex="5" GridPane.rowSpan="2">
+               <font>
+                  <Font name="Futura Condensed Medium" size="20.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </GridPane.margin>
+            </Button>
+            <Button id="blue-btn" fx:id="btnNum5" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#handleBtnNum5" stylesheets="@style.css" text="5" textFill="WHITE" GridPane.columnIndex="21" GridPane.columnSpan="3" GridPane.rowIndex="5" GridPane.rowSpan="2">
+               <font>
+                  <Font name="Futura Condensed Medium" size="20.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </GridPane.margin>
+            </Button>
+            <Button id="green-btn" fx:id="btnNum6" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#handleBtnNum6" stylesheets="@style.css" text="6" textFill="WHITE" GridPane.columnIndex="24" GridPane.columnSpan="3" GridPane.rowIndex="5" GridPane.rowSpan="2">
+               <font>
+                  <Font name="Futura Condensed Medium" size="20.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </GridPane.margin>
+            </Button>
+            <Button id="green-btn" fx:id="labelFirst" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" stylesheets="@style.css" text="Who starts the Game?" textFill="WHITE" GridPane.columnIndex="1" GridPane.columnSpan="9" GridPane.rowIndex="8">
+               <GridPane.margin>
+                  <Insets left="5.0" right="5.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Futura Condensed Medium" size="18.0" />
+               </font>
+            </Button>
+            <Button id="blue-btn" fx:id="btnFirstHuman" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#handleBtnFirstHuman" stylesheets="@style.css" text="Human" textFill="WHITE" GridPane.columnIndex="1" GridPane.columnSpan="3" GridPane.rowIndex="9" GridPane.rowSpan="2">
+               <font>
+                  <Font name="Futura Condensed Medium" size="20.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </GridPane.margin>
+            </Button>
+            <Button id="green-btn" fx:id="btnFirstRandom" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#handleBtnFirstRandom" stylesheets="@style.css" text="???" textFill="WHITE" GridPane.columnIndex="4" GridPane.columnSpan="3" GridPane.rowIndex="9" GridPane.rowSpan="2">
+               <font>
+                  <Font name="Futura Condensed Medium" size="20.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </GridPane.margin>
+            </Button>
+            <Button id="blue-btn" fx:id="btnFirstRobot" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#handleBtnFirstRobot" stylesheets="@style.css" text="Robot" textFill="WHITE" GridPane.columnIndex="7" GridPane.columnSpan="3" GridPane.rowIndex="9" GridPane.rowSpan="2">
+               <font>
+                  <Font name="Futura Condensed Medium" size="20.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </GridPane.margin>
+            </Button>
+            <Button id="green-btn" fx:id="labelSpeed" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" stylesheets="@style.css" text="Animation Speed" textFill="WHITE" GridPane.columnIndex="18" GridPane.columnSpan="9" GridPane.rowIndex="8">
+               <GridPane.margin>
+                  <Insets left="5.0" right="5.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Futura Condensed Medium" size="18.0" />
+               </font>
+            </Button>
+            <Button id="blue-btn" fx:id="btnSpeedSlow" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#handleBtnSpeedSlow" stylesheets="@style.css" text="Slow" textFill="WHITE" GridPane.columnIndex="18" GridPane.columnSpan="3" GridPane.rowIndex="9" GridPane.rowSpan="2">
+               <font>
+                  <Font name="Futura Condensed Medium" size="20.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </GridPane.margin>
+            </Button>
+            <Button id="green-btn" fx:id="btnSpeedMedium" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#handleBtnSpeedMedium" stylesheets="@style.css" text="Medium" textFill="WHITE" GridPane.columnIndex="21" GridPane.columnSpan="3" GridPane.rowIndex="9" GridPane.rowSpan="2">
+               <font>
+                  <Font name="Futura Condensed Medium" size="20.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </GridPane.margin>
+            </Button>
+            <Button id="blue-btn" fx:id="btnSpeedFast" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#handleBtnSpeedFast" stylesheets="@style.css" text="Fast" textFill="WHITE" GridPane.columnIndex="24" GridPane.columnSpan="3" GridPane.rowIndex="9" GridPane.rowSpan="2">
+               <font>
+                  <Font name="Futura Condensed Medium" size="20.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </GridPane.margin>
+            </Button>
+            <Pane id="logo" fx:id="labelLogo" prefHeight="200.0" prefWidth="200.0" stylesheets="@style.css" GridPane.columnIndex="10" GridPane.columnSpan="8" GridPane.rowIndex="1" GridPane.rowSpan="6" />
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,78 @@
+#background {
+    -fx-background-color: linear-gradient(to top left, #4F00BC, #29ABE2);
+}
+
+#logo {
+    -fx-background-image: url("kalahago.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 100%;
+    -fx-background-position: center center;
+}
+
+#white-lbl {
+    -fx-background-color:
+            #000000,
+            linear-gradient(#ffffff, #f0f0f0);
+    -fx-background-insets: 0,1;
+    -fx-background-radius: 3,2;
+    -fx-padding: 0;
+}
+
+#blue-btn {
+    -fx-background-color:
+    #000000,
+    linear-gradient(#7ebcea, #2f4b8f),
+    linear-gradient(#395cab, #223768);
+    -fx-background-insets: 0,1,2;
+    -fx-background-radius: 3,2,2;
+    -fx-padding: 0;
+}
+
+#blue-btn-highlight {
+    -fx-background-color: 
+        #000000,
+        linear-gradient(#7ebcea, #2f4b8f),
+        linear-gradient(#49a0de, #33709c);
+    -fx-background-insets: 0,1,2;
+    -fx-background-radius: 3,2,2;
+    -fx-padding: 0;
+}
+
+#green-btn {
+    -fx-background-color:
+    #000000,
+    linear-gradient(#8affa9, #2f8f82),
+    linear-gradient(#41c487, #2b8258);
+    -fx-background-insets: 0,1,2;
+    -fx-background-radius: 3,2,2;
+    -fx-padding: 0;
+}
+
+#red-btn {
+    -fx-background-color:
+    #000000,
+    linear-gradient(#ff8acc, #a83859),
+    linear-gradient(#de4976, #9c3353);
+    -fx-background-insets: 0,1,2;
+    -fx-background-radius: 3,2,2;
+    -fx-padding: 0;
+}
+
+#test-btn {
+    -fx-background-color:
+    #000000,
+    linear-gradient(red, blue),
+    linear-gradient(green, yellow),
+    linear-gradient(black, white);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 0;
+}
+
+#dark-blue {
+    -fx-background-color:
+    #f20c53,
+    radial-gradient(center 20% 20%, radius 100%, rgba(0,0,0,0.4), rgba(255,255,255,0));
+    -fx-background-radius: 0,0;
+    -fx-background-insets: 0,0;
+}
